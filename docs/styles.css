@@ -9,7 +9,7 @@ header {
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 .card-container {
@@ -22,9 +22,9 @@ body {
     box-sizing: border-box;
     width: 150px;
     height: 150px;
-    background: rgba(217, 217, 217, 0.58);
+    background: rgba(241, 241, 241, 0.58);
     border: 1px solid white;
-    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    box-shadow: 12px 17px 51px rgb(247, 255, 171);
     backdrop-filter: blur(6px);
     border-radius: 17px;
     text-align: center;
@@ -34,12 +34,11 @@ body {
     align-items: center;
     justify-content: center;
     user-select: none;
-    font-weight: bolder;
     color: black;
   }
   
   .card:hover {
-    border: 1px solid black;
+    border: 1px solid rgb(247, 255, 171);
     transform: scale(1.05);
   }
   
@@ -51,7 +50,7 @@ body {
 /* Mobile styles - full width on screens up to 767px */
 @media (max-width: 767px) {
     body {
-        background-color: lightgray; 
+        background-color: rgb(255, 255, 255); 
         width: 100%;
     }
 }
